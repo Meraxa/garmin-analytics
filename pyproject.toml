@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "garmin-analytics"
+version = "0.1.0"
+description = "This project allows the analysis of garmin running activities with unconventional metrics."
+authors = ["Tim Groß <tim.lk@web.de>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+isort = "^5.13.2"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
