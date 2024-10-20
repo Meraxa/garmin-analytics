@@ -8,6 +8,10 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pandas = "^2.2.3"
+garmin-fit-sdk = "^21.141.0"
+matplotlib = "^3.9.2"
+numpy = "^2.1.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.10.0"
